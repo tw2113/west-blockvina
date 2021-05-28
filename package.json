@@ -27,7 +27,6 @@
 		"url": "https://github.com/WebDevStudios/wds-block-starter/issues"
 	},
 	"homepage": "https://github.com/WebDevStudios/wds-block-starter#readme",
-	"dependencies": {},
 	"devDependencies": {
 		"@webdevstudios/css-coding-standards": "^1.0.0",
 		"@webdevstudios/js-coding-standards": "~1.0.2",
