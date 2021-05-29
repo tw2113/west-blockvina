@@ -693,7 +693,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'The End of The Movie - feat. Josh Groban (*SPOILER ALERT*)',
+			title: 'The End of The Movie - feat. Josh Groban',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/9Rtvwu75K3I/hqdefault.jpg',
