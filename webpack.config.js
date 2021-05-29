@@ -46,6 +46,10 @@ module.exports = {
 					{ loader: 'sass-loader' },
 				],
 			},
+			{
+				test: /\.(jpe?g|png|gif|svg)(\?[a-z0-9=.]+)?$/,
+				loader: 'url-loader?limit=100000'
+			},
 		],
 	},
 	plugins: [
