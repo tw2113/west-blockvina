@@ -24,7 +24,7 @@ const Edit = ( props ) => {
 
 	let img = '';
 	jQuery( songlist.videos ).each( ( i, thumbs ) => {
-		if ( -1 < thumbs.video.thumbnail.url.indexOf( selectControl ) ) {
+		if ( selectControl === thumbs.video.videoId ) {
 			img = thumbs.video.thumbnail.url;
 		}
 	} );
