@@ -17,24 +17,19 @@ const Edit = ( props ) => {
 	} = props;
 
 	const songlist = Songlist();
-	const songs = songlist.videos.map((item, i) => {
+	const songs = songlist.videos.map( ( item, i ) => {
 		return {
-			'label': item.video.title,
-			'value': item.video.videoId
+			label: item.video.title,
+			value: item.video.videoId,
 		};
 	});
 
 	let img = '';
-	jQuery(songlist.videos).each((i, thumbs) => {
-		if (thumbs.video.thumbnail.url.indexOf(selectControl) > -1) {
+	songlist.videos.forEach( ( thumbs ) => {
+		if ( thumbs.video.thumbnail.url.indexOf( videoID ) > -1 ) {
 			img = thumbs.video.thumbnail.url;
 		}
-	});
-
-	// Update field content on change.
-	const onChangeContent = ( newContent ) => {
-		setAttributes( { content: newContent } );
-	};
+	} );
 
 	return (
 		<div { ...useBlockProps() } className={ className }>
