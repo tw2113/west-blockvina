@@ -22,7 +22,18 @@ const Edit = ( props ) => {
 			label: item.video.title,
 			value: item.video.videoId,
 		};
-	});
+	} );
+
+	songs.sort( function( a, b ) {
+		const textA = a.label.toUpperCase();
+		const textB = b.label.toUpperCase();
+		if ( textA < textB ) {
+			return -1;
+		} else if ( textA > textB ) {
+			return 1;
+		}
+		return 0;
+	} );
 
 	let img = '';
 	songlist.videos.forEach( ( thumbs ) => {
