@@ -2,8 +2,10 @@
  * EDIT: West Blockvina
  */
 import { SelectControl } from '@wordpress/components';
+import { useBlockProps } from '@wordpress/block-editor';
 import { __ } from '@wordpress/i18n';
 import Songlist from '../data/songlist';
+import './editor.scss';
 
 const Edit = ( props ) => {
 	const {
@@ -35,13 +37,19 @@ const Edit = ( props ) => {
 	};
 
 	return (
-		<div className={className}>
+		<div { ...useBlockProps() } className={ className }>
 			<SelectControl
 				label={ __( 'Song to display', 'west-blockvina' ) }
 				value={ videoID }
 				options={ songs }
 				onChange={ ( videoID ) => setAttributes( { videoID } ) }
 			/>
+			<div className="aligncenter">
+				<img
+					src={ img }
+					alt=""
+				/>
+			</div>
 		</div>
 	);
 };
