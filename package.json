@@ -1,7 +1,7 @@
 {
-	"name": "wds-block-starter",
-	"version": "0.0.1",
-	"description": "A block starter for WebDevStudios projects.",
+	"name": "west-blockvina",
+	"version": "1.0.0",
+	"description": "Crazy Ex Girlfriend videos!",
 	"main": "src/index.js",
 	"scripts": {
 		"start": "wp-scripts start",
@@ -16,17 +16,17 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/WebDevStudios/wds-block-starter"
+		"url": "git+https://github.com/tw2113/west-blockvina"
 	},
 	"keywords": [
 		"Gutenberg"
 	],
-	"author": "WebDevStudios",
+	"author": "Michael Beckwith",
 	"license": "GPL-3.0",
 	"bugs": {
-		"url": "https://github.com/WebDevStudios/wds-block-starter/issues"
+		"url": "https://github.com/tw2113/west-blockvina/issues"
 	},
-	"homepage": "https://github.com/WebDevStudios/wds-block-starter#readme",
+	"homepage": "https://github.com/tw2113/west-blockvina",
 	"dependencies": {
 		"npm-outdated": "^0.1.3"
 	},
