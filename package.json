@@ -2,7 +2,7 @@
 	"name": "west-blockvina",
 	"version": "1.0.0",
 	"description": "Crazy Ex Girlfriend videos!",
-	"main": "src/index.js",
+	"main": "./src/index.js",
 	"scripts": {
 		"start": "wp-scripts start",
 		"dev": "wp-scripts start",
