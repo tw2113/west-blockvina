@@ -8,11 +8,12 @@ import Songlist from '../data/songlist';
 const Edit = ( props ) => {
 	const {
 		attributes: {
-			selectControl,
+			videoID,
 		},
 		className,
 		setAttributes,
 	} = props;
+
 	const songlist = Songlist();
 	const songs = songlist.videos.map((item, i) => {
 		return {
@@ -36,14 +37,10 @@ const Edit = ( props ) => {
 	return (
 		<div className={className}>
 			<SelectControl
-				label={__('Song to display', 'west-blockvina')}
-				value={selectControl}
-				options={songs}
-				onChange={selectControl => setAttributes({selectControl})}
-			/>
-			<img
-				src={img}
-				alt=""
+				label={ __( 'Song to display', 'west-blockvina' ) }
+				value={ videoID }
+				options={ songs }
+				onChange={ ( videoID ) => setAttributes( { videoID } ) }
 			/>
 		</div>
 	);
