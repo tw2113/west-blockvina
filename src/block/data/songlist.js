@@ -1,7 +1,7 @@
 const Songlist = () => ( {
 	videos: [ {
 		video: {
-			title: 'S1 - The Sexy Getting Ready Song (Explicit)',
+			title: 'S1.02 - The Sexy Getting Ready Song (Explicit)',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/ky-BYK-f154/hqdefault.jpg',
 				width: 480,
@@ -11,7 +11,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - I\'m So Good At Yoga feat. Gabrielle Ruiz (Explicit)',
+			title: 'S1.05 - I\'m So Good At Yoga feat. Gabrielle Ruiz (Explicit)',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/wFUk79fBOiQ/hqdefault.jpg',
 				width: 480,
@@ -21,7 +21,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Feeling Kinda Naughty',
+			title: 'S1.06 - Feeling Kinda Naughty',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/WHoopcEz_IU/hqdefault.jpg',
 				width: 480,
@@ -31,7 +31,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - West Covina',
+			title: 'S1.01 - West Covina',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/92538NJ0lbE/hqdefault.jpg',
 				width: 480,
@@ -41,7 +41,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Face Your Fears (feat. Donna Lynne Champlin)',
+			title: 'S1.07 - Face Your Fears (feat. Donna Lynne Champlin)',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/brzZQBSVMX0/hqdefault.jpg',
 				width: 480,
@@ -51,7 +51,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - I Have Friends',
+			title: 'S1.08 - I Have Friends',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/N__AkJriaN4/hqdefault.jpg',
 				width: 480,
@@ -61,7 +61,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Crazy Ex-Girlfriend Theme Song',
+			title: 'S1.04 - Crazy Ex-Girlfriend Theme Song',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/qzY3EaJTuJk/hqdefault.jpg',
 				width: 480,
@@ -71,7 +71,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Sex with a Stranger',
+			title: 'S1.15 - Sex with a Stranger',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/iH3FPrI_Cuw/hqdefault.jpg',
 				width: 480,
@@ -81,7 +81,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Settle for Me (feat. Santino Fontana)',
+			title: 'S1.10 - Settle for Me (feat. Santino Fontana)',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/wmbLB4OIuao/hqdefault.jpg',
 				width: 480,
@@ -91,7 +91,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - I\'m a Good Person - Rachel Bloom (Explicit)',
+			title: 'S1.13 - I\'m a Good Person - Rachel Bloom (Explicit)',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/O4hh1YhDfbA/hqdefault.jpg',
 				width: 480,
@@ -101,7 +101,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - I Give Good Parent (Explicit) - feat. Rachel Bloom and Amy Hill',
+			title: 'S1.16 - I Give Good Parent (Explicit) - feat. Rachel Bloom and Amy Hill',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/mIJKuxzWAGs/hqdefault.jpg',
@@ -112,7 +112,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - What\'ll it Be (Hey, West Covina) - feat. Santino Fontana',
+			title: 'S1.17 - What\'ll it Be (Hey, West Covina) - feat. Santino Fontana',
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/HayIkHCXTBM/hqdefault.jpg',
 				width: 480,
@@ -122,7 +122,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Sexy French Depression (feat. Rachel Bloom)',
+			title: 'S1.18 - Sexy French Depression (feat. Rachel Bloom)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/H1DCoGCVUxY/hqdefault.jpg',
@@ -133,7 +133,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Where\'s the Bathroom? (feat. Tovah Feldshuh)',
+			title: 'S1.21 - Where\'s the Bathroom? (feat. Tovah Feldshuh)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/VJg1zRgkbno/hqdefault.jpg',
@@ -144,7 +144,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - California Christmastime',
+			title: 'S1.22 - California Christmastime',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/lHd0xLCW2lw/hqdefault.jpg',
@@ -155,7 +155,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - His Status is Preferred (feat. Donna Lynne Champlin)',
+			title: 'S1.19 - His Status is Preferred (feat. Donna Lynne Champlin)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/aIiNbGbs2dQ/hqdefault.jpg',
@@ -166,7 +166,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Women Gotta Stick Together (feat. Gabrielle Ruiz)',
+			title: 'S1.24 - Women Gotta Stick Together (feat. Gabrielle Ruiz)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/P6B-r3QQw9M/hqdefault.jpg',
@@ -177,7 +177,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Having a Few People Over (feat. Pete Gardner)',
+			title: 'S1.28 - Having a Few People Over (feat. Pete Gardner)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/J4VwhBFY9bE/hqdefault.jpg',
@@ -188,7 +188,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - You Stupid Bitch (feat. Rachel Bloom)',
+			title: 'S1.32 - You Stupid Bitch (feat. Rachel Bloom)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/zgUKQCVieWM/hqdefault.jpg',
@@ -199,7 +199,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Textmergency',
+			title: 'S1.30 - Textmergency',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/mHU1EYeug4M/hqdefault.jpg',
@@ -210,7 +210,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Cold Showers Lead to Crack (feat. Rachel Bloom)',
+			title: 'S1.35 - Cold Showers Lead to Crack (feat. Rachel Bloom)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/tDx6ai-HA1M/hqdefault.jpg',
@@ -221,7 +221,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Group Hang (feat. Rachel Bloom)',
+			title: 'S1.33 - Group Hang (feat. Rachel Bloom)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/w7FC_EK44Rw/hqdefault.jpg',
@@ -232,7 +232,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - JAP Battle (EXPLICIT)',
+			title: 'S1.36 - JAP Battle (EXPLICIT)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/-TQmo5TvZQY/hqdefault.jpg',
@@ -243,7 +243,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Flooded with Justice',
+			title: 'S1.37 - Flooded with Justice',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/Ynn7C7a95kc/hqdefault.jpg',
@@ -254,7 +254,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Gettin\' Bi (feat. Pete Gardner)',
+			title: 'S1.41 - Gettin\' Bi (feat. Pete Gardner)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/5e7844P77Is/hqdefault.jpg',
@@ -265,7 +265,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - I\'m the Villain in My Own Story (feat. Rachel Bloom)',
+			title: 'S1.42 - I\'m the Villain in My Own Story (feat. Rachel Bloom)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/UhzN7SfnNeY/hqdefault.jpg',
@@ -276,7 +276,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Heavy Boobs (feat. Rachel Bloom)',
+			title: 'S1.47 - Heavy Boobs (feat. Rachel Bloom)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/aZx5zfkG6oU/hqdefault.jpg',
@@ -287,7 +287,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - I Gave You a UTI (feat. Santino Fontana)',
+			title: 'S1.48 - I Gave You a UTI (feat. Santino Fontana)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/W_pi8yBaooQ/hqdefault.jpg',
@@ -298,7 +298,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - Oh My God I Think I Like You (feat. Rachel Bloom)',
+			title: 'S1.50 - Oh My God I Think I Like You (feat. Rachel Bloom)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/eeb0pFdwTBg/hqdefault.jpg',
@@ -309,7 +309,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S1 - After Everything I\'ve Done for You (That You Didn\'t Ask For)',
+			title: 'S1.51 - After Everything I\'ve Done for You (That You Didn\'t Ask For)',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/xtKtmXzeyqs/hqdefault.jpg',
@@ -320,7 +320,18 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S2 - Love Kernels - feat. Rachel Bloom',
+			title: 'S2.01 - I\'m Just A Girl In Love',
+
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/UMHz6FiRzS8/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'UMHz6FiRzS8',
+		},
+	}, {
+		video: {
+			title: 'S2.02 - Love Kernels - feat. Rachel Bloom',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/bkAjUBtn_TM/hqdefault.jpg',
@@ -342,7 +353,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S2 - Greg\'s Drinking Song - feat. Santino Fontana',
+			title: 'S2.05 - Greg\'s Drinking Song - feat. Santino Fontana',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/OuTYrcnm_i4/hqdefault.jpg',
@@ -353,7 +364,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S2 - Maybe This Dream - feat. Donna Lynne Champlin',
+			title: 'S2.04 - Maybe This Dream - feat. Donna Lynne Champlin',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/sGBfiProO0U/hqdefault.jpg',
@@ -364,7 +375,7 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title: 'S2 - We Should Definitely Not Have Sex Right Now',
+			title: 'S2.03 - We Should Definitely Not Have Sex Right Now',
 
 			thumbnail: {
 				url: 'https://i.ytimg.com/vi/tJ9ea-hbQw4/hqdefault.jpg',
@@ -1326,6 +1337,216 @@ const Songlist = () => ( {
 				height: 360,
 			},
 			videoId: 'nSTJ9xwNV0M',
+		},
+	}, {
+		video: {
+			title: 'S1.03 - West Covina Reprise',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/2VO0X0_RxAo/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: '2VO0X0_RxAo',
+		},
+	}, {
+		video: {
+			title: 'S1.09 - A Boy Band Made Up Of Four Joshes',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/C3_NELleDYc/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'C3_NELleDYc',
+		},
+	}, {
+		video: {
+			title: 'S1.11 - Settle For Me (Reprise)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/CQu2p-EbzEc/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'CQu2p-EbzEc',
+		},
+	}, {
+		video: {
+			title: 'S1.12 - I Love My Daughter (But Not In A Creeepy Way) feat. Pete Gardner',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/M8jU2oQTy5Y/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'M8jU2oQTy5Y',
+		},
+	}, {
+		video: {
+			title: 'S1.14 - I\'m A Good Person (Mrs Hernandez reprise)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/9JdUbMQ18tA/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: '9JdUbMQ18tA',
+		},
+	}, {
+		video: {
+			title: 'S1.20 - Sexy Gonna Do It Song - Acapella',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/HLeoGbOIfNA/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'HLeoGbOIfNA',
+		},
+	}, {
+		video: {
+			title: 'S1.23 - I Have Friends (reprise)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/dXAClqSFVBE/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'dXAClqSFVBE',
+		},
+	}, {
+		video: {
+			title: 'S1.25 - Rebecca pole dances to "Sugar"',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/G2msRWob1wc/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'G2msRWob1wc',
+		},
+	}, {
+		video: {
+			title: 'S1.26 - West Covina (Reprise II)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/q8XuQbzoFss/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'q8XuQbzoFss',
+		},
+	}, {
+		video: {
+			title: 'S1.27 - Dear Joshua Felix Chan (feat. Rachel Bloom)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/c4XsaVCihHs/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'c4XsaVCihHs',
+		},
+	}, {
+		video: {
+			title: 'S1.29 - Put Yourself First',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/H2lmojePnA0/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'H2lmojePnA0',
+		},
+	}, {
+		video: {
+			title: 'S1.31 - Where Is The Rock? (feat. Ester Dean, Briga Heelen, Ivan Hernandez & Jeff Hiller)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/pshfnqxmkZc/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'pshfnqxmkZc',
+		},
+	}, {
+		video: {
+			title: 'S1.34 - Romantic Moments (Feat. Nina Zeitlin)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/wwdlEUq8t3o/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'wwdlEUq8t3o',
+		},
+	}, {
+		video: {
+			title: 'S1.38 - Romantic Moments Don\'t Settle For Me',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/NxaZ7HThc00/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'NxaZ7HThc00',
+		},
+	}, {
+		video: {
+			title: 'S1.39 - Flooded with Justice (Reprise)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/DwqlZz3FAcM/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'DwqlZz3FAcM',
+		},
+	}, {
+		video: {
+			title: 'S1.40 - "Crazy Ex-Girlfriend" coda "Dear Rebecca Nora Bunch"',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/3GGfM2qOOYI/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: '3GGfM2qOOYI',
+		},
+	}, {
+		video: {
+			title: 'S1.43 - "Josh Is Going to Hawaii!" Coda featuring "Paula the Raccoon" ',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/HnR-bNatfiY/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'HnR-bNatfiY',
+		},
+	}, {
+		video: {
+			title: 'S1.44 - Dream Ghost (feat. Michael Hyatt, Amber Riley and Ricki Lake)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/_ycLTwY_QlY/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: '_ycLTwY_QlY',
+		},
+	}, {
+		video: {
+			title: 'S1.45 - I Could If I Wanted To (feat. Santino Fontana)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/GUuU99c_9mY/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'GUuU99c_9mY',
+		},
+	}, {
+		video: {
+			title: 'S1.46 - Cleanup on Aisle 4',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/ZYBzQnAat7w/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'ZYBzQnAat7w',
+		},
+	}, {
+		video: {
+			title: 'S1.49 - Angry Mad aka Josh\'s Angry Dance (feat. Vincent Rodriguez the Third)',
+			thumbnail: {
+				url: 'https://i.ytimg.com/vi/GZJrP8qeFhc/hqdefault.jpg',
+				width: 480,
+				height: 360,
+			},
+			videoId: 'GZJrP8qeFhc',
 		},
 	}, {
 		video: {
