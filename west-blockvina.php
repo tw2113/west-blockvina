@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     West Blockvina
  * Description:     A 'Crazy Ex-Girlfriend song picker'
- * Version:         1.0.0
+ * Version:         1.1.0
  * Author:          tw2113
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
