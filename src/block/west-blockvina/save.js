@@ -1,20 +1,20 @@
-import {SandBox} from '@wordpress/components';
+import { SandBox } from '@wordpress/components';
 
 const Save = ( props ) => {
 	const {
 		attributes: {
-			selectControl
+			videoID,
 		},
-		className
+		className,
 	} = props;
 
-	const url = 'https://www.youtube.com/watch?v='+selectControl;
+	const url = 'https://www.youtube.com/watch?v=' + videoID;
 
 	return (
-		<div className={className}>
-			{selectControl && (
-				`[embed]${url}[/embed]`
-			)}
+		<div className={ className }>
+			{ videoID && (
+				`[embed]${ url }[/embed]`
+			) }
 		</div>
 	);
 };

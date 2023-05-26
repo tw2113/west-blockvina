@@ -1,15 +1,22 @@
 {
   "name": "tw2113/west-blockvina",
-  "description": "A block starter for WebDevStudios projects.",
+  "description": "Crazy Ex Girlfriend videos!",
   "type": "wordpress-plugin",
   "authors": [
     {
-      "name": "WebDevStudios",
-      "email": "contact@webdevstudios.com"
+      "name": "Michael Beckwith",
+      "email": "tw2113@protonmail.com"
     }
   ],
-  "require": {},
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+	"sort-packages": true
+  },
   "require-dev": {
-    "webdevstudios/php-coding-standards": "^1.0"
+    "wp-coding-standards/wpcs": "^2.3",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "phpcompatibility/phpcompatibility-wp": "^2.1"
   }
 }

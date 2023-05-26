@@ -1,8 +1,21 @@
 // WordPress editor styles
-$color-blue: rgb(33, 175, 194);
+$color-crazy-pink: #e04492;
+$color-crazy-pink-dark: #650835;
 
 .wp-block-tw2113-west-blockvina {
-	label.components-base-control__label {
+	border: solid $color-crazy-pink 3px;
+	border-radius: 15px;
+	padding: 20px 20px 90px;
+
+	background: $color-crazy-pink-dark url("../../assets/cxg.png") right 20px top 98% no-repeat;
+	label.components-input-control__label {
 		display: block;
+		color: #fff;
+	}
+	img {
+		width: 100%;
+	}
+	.aligncenter {
+		text-align: center;
 	}
 }

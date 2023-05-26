@@ -15,7 +15,7 @@ registerBlockType( 'tw2113/west-blockvina', {
 		__( 'west-blockvina', 'west-blockvina' ),
 	],
 	attributes: {
-		selectControl: {
+		videoID: {
 			type: 'string',
 		},
 	},

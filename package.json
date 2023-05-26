@@ -1,49 +1,50 @@
 {
-	"name": "wds-block-starter",
-	"version": "0.0.1",
-	"description": "A block starter for WebDevStudios projects.",
-	"main": "src/index.js",
+	"name": "west-blockvina",
+	"version": "1.1.0",
+	"description": "Crazy Ex Girlfriend videos!",
+	"main": "./src/index.js",
 	"scripts": {
 		"start": "wp-scripts start",
 		"dev": "wp-scripts start",
 		"watch": "wp-scripts start",
 		"build": "wp-scripts build",
 		"lint:css": "wp-scripts lint-style && ./node_modules/.bin/sass-lint --config ./node_modules/@webdevstudios/css-coding-standards/.sass-lint.yml '**/*.scss' --verbose",
-		"lint:js": "wp-scripts lint-js",
+		"lint:js": "wp-scripts lint-js ./src",
 		"lint:php": "./vendor/bin/phpcs --standard=./.phpcs.xml.dist --extensions=php ./ --ignore='./build/*,./node_modules/*,./vendor/*'",
 		"packages-update": "wp-scripts packages-update",
-		"postinstall": "wp-scripts build && composer install"
+		"postinstall": "wp-scripts build && composer install",
+		"styles": "run-s styles:compile styles:compress",
+		"styles:compile": "node-sass assets/sass/style.scss -o assets/css/ --source-map true",
+		"styles:compress": "node-sass assets/css/style.css assets/css/style.min.css --output-style compressed"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/WebDevStudios/wds-block-starter"
+		"url": "git+https://github.com/tw2113/west-blockvina"
 	},
 	"keywords": [
 		"Gutenberg"
 	],
-	"author": "WebDevStudios",
+	"author": "Michael Beckwith",
 	"license": "GPL-3.0",
 	"bugs": {
-		"url": "https://github.com/WebDevStudios/wds-block-starter/issues"
+		"url": "https://github.com/tw2113/west-blockvina/issues"
 	},
-	"homepage": "https://github.com/WebDevStudios/wds-block-starter#readme",
+	"homepage": "https://github.com/tw2113/west-blockvina",
 	"dependencies": {
-		"npm-outdated": "^0.1.3"
+		"npm-outdated": "^0.1.3",
+		"npm-run-all": "^4.1.5"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^24",
-		"clean-webpack-plugin": "^4.0.0",
-		"css-loader": "^6.7.1",
+		"@wordpress/scripts": "^26",
+		"css-loader": "^6.7.3",
 		"css-mqpacker": "^7.0.0",
-		"cssnano": "^5.1.5",
-		"ignore-emit-webpack-plugin": "^2.0.6",
+		"cssnano": "^6",
 		"mini-css-extract-plugin": "^2.6.0",
-		"node-sass": "^7.0.1",
+		"node-sass": "^9",
 		"postcss-loader": "^7",
 		"postcss-safe-parser": "^6.0.0",
 		"sass-loader": "^13",
-		"style-loader": "^3.3.1",
-		"webpack": "^5.70.0"
+		"style-loader": "^3.3.1"
 	},
 	"eslintConfig": {
 		"extends": [
