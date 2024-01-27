@@ -31,13 +31,12 @@
 	},
 	"homepage": "https://github.com/tw2113/west-blockvina",
 	"dependencies": {
+		"css-mqpacker": "^7.0.0",
 		"npm-check-updates": "^16.14.14",
 		"npm-run-all": "^4.1.5"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^27",
-		"css-loader": "^6.7.3",
-		"css-mqpacker": "^7.0.0",
 		"cssnano": "^6",
 		"mini-css-extract-plugin": "^2.6.0",
 		"node-sass": "^9",
