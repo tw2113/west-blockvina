@@ -1,7 +1,6 @@
 /**
  * External Dependencies.
  */
-const mqpacker = require( 'css-mqpacker' );
 
 // Determine Mode.
 const production = 'production' === process.env.NODE_ENV ? true : false;
@@ -10,9 +9,6 @@ const production = 'production' === process.env.NODE_ENV ? true : false;
 const plugins = [
 	require( 'postcss-safe-parser' ),
 	require( 'autoprefixer' ),
-	mqpacker( {
-		sort: true,
-	} ),
 ];
 
 // Minify production.
