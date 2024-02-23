@@ -44,8 +44,12 @@ const Edit = ( props ) => {
 		}
 	} );
 
+	const blockProps = useBlockProps( {
+		className,
+	} );
+
 	return (
-		<div { ...useBlockProps() } className={ className }>
+		<div { ...blockProps }>
 			<SelectControl
 				label={ __( 'Song to display', 'west-blockvina' ) }
 				value={ videoID }
