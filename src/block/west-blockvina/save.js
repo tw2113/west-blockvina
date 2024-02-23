@@ -1,5 +1,3 @@
-import { SandBox } from '@wordpress/components';
-
 const Save = ( props ) => {
 	const {
 		attributes: {
