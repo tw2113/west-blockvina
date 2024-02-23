@@ -36,9 +36,11 @@ const Edit = ( props ) => {
 	} );
 
 	let img = '';
+	let title = '';
 	songlist.videos.forEach( ( thumbs ) => {
 		if ( thumbs.video.thumbnail.url.indexOf( videoID ) > -1 ) {
 			img = thumbs.video.thumbnail.url;
+			title = thumbs.video.title;
 		}
 	} );
 
@@ -53,7 +55,7 @@ const Edit = ( props ) => {
 			<div className="aligncenter">
 				<img
 					src={ img }
-					alt=""
+					alt={ title }
 				/>
 			</div>
 		</div>
