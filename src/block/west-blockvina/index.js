@@ -13,6 +13,7 @@ registerBlockType( 'tw2113/west-blockvina', {
 	category: 'common',
 	keywords: [
 		__( 'west-blockvina', 'west-blockvina' ),
+		__( 'blockvina', 'west-blockvina' ),
 	],
 	attributes: {
 		videoID: {
