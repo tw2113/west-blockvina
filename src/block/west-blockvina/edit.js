@@ -17,7 +17,7 @@ const Edit = ( props ) => {
 	} = props;
 
 	const songlist = Songlist();
-	const songs = songlist.videos.map( ( item, i ) => {
+	const songs = songlist.videos.map( ( item ) => {
 		return {
 			label: item.video.title,
 			value: item.video.videoId,
