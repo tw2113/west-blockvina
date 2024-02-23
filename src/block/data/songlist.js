@@ -1626,23 +1626,23 @@ const Songlist = () => ( {
 		},
 	}, {
 		video: {
-			title    : 'S4.11 - I\'ve Always Never Believed In You',
+			title: 'S4.11 - I\'ve Always Never Believed In You',
 			thumbnail: {
-				url   : 'https://i.ytimg.com/vi/f-H-qzqQJsw/hqdefault.jpg',
-				width : 480,
+				url: 'https://i.ytimg.com/vi/f-H-qzqQJsw/hqdefault.jpg',
+				width: 480,
 				height: 360,
 			},
-			videoId  : 'f-H-qzqQJsw',
+			videoId: 'f-H-qzqQJsw',
 		},
 	}, {
 		video: {
-			title    : 'S4.14 - How To Clean Up',
+			title: 'S4.14 - How To Clean Up',
 			thumbnail: {
-				url   : 'https://i.ytimg.com/vi/RKbY7Q3knsk/hqdefault.jpg',
-				width : 480,
+				url: 'https://i.ytimg.com/vi/RKbY7Q3knsk/hqdefault.jpg',
+				width: 480,
 				height: 360,
 			},
-			videoId  : 'RKbY7Q3knsk',
+			videoId: 'RKbY7Q3knsk',
 		},
 	} ],
 } );
