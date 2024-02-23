@@ -40,8 +40,6 @@
 		"cssnano": "^6",
 		"mini-css-extract-plugin": "^2.6.0",
 		"node-sass": "^9",
-		"postcss-loader": "^7",
-		"postcss-safe-parser": "^7.0.0",
 		"sass-loader": "^14",
 		"style-loader": "^3.3.1"
 	},
