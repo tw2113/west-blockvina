@@ -52,7 +52,7 @@ const Edit = (props) => {
 				label={__('Song to display', 'west-blockvina')}
 				value={videoID}
 				options={songs}
-				onChange={(videoID) => setAttributes({ videoID })}
+				onChange={(val) => setAttributes({ videoID: val })}
 			/>
 			<div className="aligncenter">
 				<img src={img} alt={title} />
