@@ -1,0 +1,26 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "tw2113/west-blockvina",
+	"title": "West Blockvina",
+	"version": "1.2.0",
+	"category": "widgets",
+	"icon": "edit",
+	"description": "Crazy Ex Girlfriend videos!",
+	"keywords": [
+		"west-blockvina",
+		"blockvina"
+	],
+	"textdomain": "west-blockvina",
+	"supports": {
+		"html": true
+	},
+	"attributes": {
+		"videoID": {
+			"type": "string"
+		}
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

@@ -1,8 +1,8 @@
 {
 	"name": "west-blockvina",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Crazy Ex Girlfriend videos!",
-	"main": "./src/index.js",
+	"main": "./build/index.js",
 	"scripts": {
 		"start": "wp-scripts start",
 		"dev": "wp-scripts start",
@@ -12,18 +12,12 @@
 		"lint:js": "wp-scripts lint-js ./src",
 		"lint:php": "./vendor/bin/phpcs --standard=./.phpcs.xml.dist --extensions=php ./ --ignore='./build/*,./node_modules/*,./vendor/*'",
 		"packages-update": "wp-scripts packages-update",
-		"postinstall": "wp-scripts build && composer install",
-		"styles": "run-s styles:compile styles:compress",
-		"styles:compile": "node-sass assets/sass/style.scss -o assets/css/ --source-map true",
-		"styles:compress": "node-sass assets/css/style.css assets/css/style.min.css --output-style compressed"
+		"postinstall": "wp-scripts build && composer install"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/tw2113/west-blockvina"
 	},
-	"keywords": [
-		"Gutenberg"
-	],
 	"author": "Michael Beckwith",
 	"license": "GPL-3.0",
 	"bugs": {
@@ -31,24 +25,19 @@
 	},
 	"homepage": "https://github.com/tw2113/west-blockvina",
 	"dependencies": {
-		"@wordpress/eslint-plugin": "^22.22.0",
-		"css-loader": "^7.1.2",
-		"eslint-plugin-eslint-comments": "^3.2.0",
-		"npm-check-updates": "^19.1.2",
+		"css-loader": "^7.1.4",
+		"npm-check-updates": "^23.0.0",
 		"npm-run-all": "^4.1.5"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^31.1.0",
-		"cssnano": "^7",
-		"mini-css-extract-plugin": "^2.9.4",
-		"sass-loader": "^16",
+		"@wordpress/block-editor": "^16.1.0",
+		"@wordpress/components": "^38.0.0",
+		"@wordpress/scripts": "^34.0.0",
+		"@wordpress/url": "^4.52.0",
+		"cssnano": "^8",
+		"mini-css-extract-plugin": "^2.10.2",
+		"sass-loader": "^17",
 		"style-loader": "^4.0.0"
-	},
-	"eslintConfig": {
-		"extends": [
-			"plugin:@wordpress/eslint-plugin/esnext",
-			"plugin:@wordpress/eslint-plugin/react"
-		]
 	},
 	"sasslintConfig": "./node_modules/@webdevstudios/css-coding-standards/.sass-lint.yml",
 	"stylelint": {

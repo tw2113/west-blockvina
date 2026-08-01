@@ -49,7 +49,7 @@ const Edit = (props) => {
 	return (
 		<div {...blockProps}>
 			<SelectControl
-				label={__('Song to display', 'west-blockvina')}
+				label={__('Song to displayz', 'west-blockvina')}
 				value={videoID}
 				options={songs}
 				onChange={(val) => setAttributes({ videoID: val })}
