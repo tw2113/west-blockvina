@@ -27,6 +27,7 @@
 	"devDependencies": {
 		"@wordpress/block-editor": "^16.1.0",
 		"@wordpress/components": "^38.0.0",
+		"@wordpress/eslint-plugin": "^25.8.0",
 		"@wordpress/scripts": "^34.0.0",
 		"@wordpress/url": "^4.52.0",
 		"npm-check-updates": "^23.0.1",
